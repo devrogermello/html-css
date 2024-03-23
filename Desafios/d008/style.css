@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body.index {
+    background-color: rgb(172, 169, 169);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+body.verde {
+    background-color: rgb(184, 248, 184);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+body.amarelo{
+    background-color: lightyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+h1.verde {
+    color: rgb(0, 88, 0);
+}
+
+p.verde {
+    font-size: 1.1em;
+    color: rgb(13, 87, 13);
+}
+
+h1.amarelo {
+    color: rgb(255, 174, 0);
+}
+
+p.amarelo {
+    font-size: 1.1em;
+    color: rgb(182, 124, 0);
+}
+
+a {
+    font-weight: bold;
+}
