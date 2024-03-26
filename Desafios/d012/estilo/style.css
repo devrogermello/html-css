@@ -58,6 +58,9 @@ section.simples {
     color: black;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
 
 section.girassol {
     background-image: url(../imagens/background001.jpg);
@@ -68,7 +71,7 @@ section.girassol {
 }
 
 p.girassol-p {
-    background-color: rgba(4, 0, 0, 0.705);
+    background-color: rgba(4, 0, 0, 0.5);
     display: inline-block;
     color: white;
     padding: 5px;
@@ -80,6 +83,7 @@ section.carta {
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.562);
 }
 
 p.carta-p {
